@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Emmanuel";
+    background: linear-gradient(150deg, #38419D, #3887BE);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 400px;
+    background: #52D3D8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3887BE;
+}
+
+.formulario .campo {
+    position: relative;
+    margin: 20px 0;
+}
+
+.campo input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #3887BE;
+    background: none;
+    outline: none;
+}
+
+.campo label {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-size: 16px;
+    color: #000;
+    transition: transform 0.3s ease-out;
+}
+
+.campo input:focus + label {
+    transform: translateY(-130%);
+    font-size: 14px;
+    color: #3887BE;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    background: #3887BE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-out;
+}
+
+.boton:hover {
+    background: #2E688B;
+}
+
+.formulario .recordar {
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.recordar1{
+   text-align: center;
+}
+

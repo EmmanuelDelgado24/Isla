@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altas</title>
+    <link rel="stylesheet" href="/Estilos.css">
+    <link rel="stylesheet" href="/Estilos/altas.css">
+    <link rel="stylesheet" href="/Estilos/inicio.css">
+    <link rel="stylesheet" href="/Controlador/index.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-danger" data-bs-theme="white">
+            <div><img src="/Imagenes/jobart.jpeg" class="rounded" alt="logo"></div>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/altas.html">Altas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/bajas.html">Bajas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/busqueda.html">Busqueda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/busqueda.html">Busqueda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Vista/busqueda.html">Busqueda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active" data-bs-toggle="dropdown" href="/Vista/permisos.html" role="button"
+                        aria-expanded="false">Permisos</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link active" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active" data-bs-toggle="dropdown" href="/Vista/permisos.html" role="button"
+                        aria-expanded="false">Vacantes</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link active" href="/Vista/Departamento/corte.html">Corte</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/coordinado.html">Coordinado</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/pespunte.html">Pespunte</a></li>
+                        <li><a class="nav-link active" href="/Vista/Departamento/montado.html">Montado</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/adorno.html">Adorno</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/almacen.html">Almacén</a></li>
+                        <li><a class="nav-link active" href="/Vista/Departamento/embarque.html">Embarque</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/">Limpieza</a></li>
+                        <li><a class="dropdown-item" href="/Vista/Departamento/">Enfermería</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Infonavit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">IMSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">SAT</a>
+                </li>
+            </ul>
+            <div><img src="/Iconos/person-circle.svg" class="rounded-circle" alt="persona"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-container">
+                            <h2 class="rounded">Información Personal</h2>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Nombre</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPasswordApellidoPaterno"
+                                    placeholder="Apellido Paterno" style="width: 400px;">
+                                <label for="floatingPasswordApellidoPaterno">Apellido Paterno</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputApellidoMaterno"
+                                    placeholder="Apellido Materno" style="width: 400px;">
+                                <label for="floatingInputApellidoMaterno">Apellido Materno</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPasswordEdad" placeholder="Edad"
+                                    style="width: 400px;">
+                                <label for="floatingPasswordEdad">Calle</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputFechaNacimiento"
+                                    placeholder="Fecha de Nacimiento" style="width: 400px;">
+                                <label for="floatingInputFechaNacimiento">Colonia</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                                    style="width: 400px;">
+                                <label for="floatingPassword">C.P.</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-container">
+                            <h2 class="rounded">Información Personal</h2>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">CURP</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">RFC</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">NSS</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelectSexo" style="width: 400px;">
+                                    <option value="" disabled selected>Selecciona el sexo</option>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                                <label for="floatingSelectSexo">Sexo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelectSexo" style="width: 400px;">
+                                    <option value="" disabled selected>Selecciona el estado civil</option>
+                                    <option value="masculino">Soltero(a)</option>
+                                    <option value="femenino">Casado(a)</option>
+                                </select>
+                                <label for="floatingSelectSexo">Estado Civil</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Hijos</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-container">
+                            <h2 class="rounded">Información Personal</h2>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelectSexo" style="width: 400px;">
+                                    <option value="" disabled selected>Selecciona el nivel de estudios</option>
+                                    <option value="masculino">Primaria</option>
+                                    <option value="femenino">Secundaria</option>
+                                    <option value="femenino">Preparatoria</option>
+                                    <option value="femenino">Universidad</option>
+                                </select>
+                                <label for="floatingSelectSexo">Estudios</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Teléfono</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Teléfono de Emergencia</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Edad</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Fecha de Nacimiento</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Número de Reloj</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-container">
+                            <h2 class="rounded">Información Laboral</h2>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelectSexo" style="width: 400px;">
+                                    <option value="" disabled selected>Selecciona el departamento</option>
+                                    <option value="masculino">Almacén</option>
+                                    <option value="masculino">Corte</option>
+                                    <option value="femenino">Coordinado</option>
+                                    <option value="femenino">Pespunte</option>
+                                    <option value="femenino">Montado</option>
+                                    <option value="masculino">Adorno</option>
+                                    <option value="femenino">Embarque</option>
+                                    <option value="femenino">Calidad</option>
+                                    <option value="femenino">Diseño</option>
+                                    <option value="masculino">DOH</option>
+                                    <option value="femenino">Mantenimiento</option>
+                                    <option value="femenino">Ingeniería</option>
+                                    <option value="femenino">Limpieza</option>
+                                    <option value="femenino">Seguridad</option>
+                                    <option value="femenino">Sistemas</option>
+                                </select>
+                                <label for="floatingSelectSexo">Estudios</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Puesto</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Categoría</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Número de Empleado</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Sueldo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputNombre" placeholder="Nombre"
+                                    style="width: 400px;">
+                                <label for="floatingInputNombre">Fecha de Ingreso</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boton">
+                <button class="btn btn-success " type="button">Enviar</button>
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <nav class="navbar bg-danger" data-bs-theme="white"></nav>
+    </footer>
+</body>
+
+</html>

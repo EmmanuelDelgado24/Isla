@@ -1,0 +1,42 @@
+img.img-thumbnail{
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    width: 300; /* Establece el ancho automático para mantener la proporción */
+    margin-bottom: auto;
+    margin-right: 80px; /* Ajusta el margen entre las imágenes según tu preferencia */
+}
+
+.img-thumbnail{
+
+}
+
+body{
+    background: #b1a7a6;
+}
+
+.container{
+    background: #003049;
+    padding: 15px;
+}
+
+.section-imagen-busqueda{
+    background-color: #669bbc;
+}
+
+
+aside {
+    margin-bottom: 20px; /* Puedes ajustar el valor según tus necesidades */
+    background-color: #669bbc;
+    border-radius: 10px; /* Añade bordes redondeados al 'aside' */
+    padding: 10px; /* Agrega un relleno al 'aside' si es necesario */
+    margin-top: 20px; /* Puedes ajustar el valor según tus necesidades */
+    width: 100%; /* Asegura que el 'section' ocupe todo el ancho disponible */
+    height: 100%;
+  }
+
+  section{
+    margin-top: 20px; /* Puedes ajustar el valor según tus necesidades */
+    width: 100%; /* Asegura que el 'section' ocupe todo el ancho disponible */
+  }
+
+  
+  
